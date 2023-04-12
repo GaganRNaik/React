@@ -11,7 +11,11 @@
   background-color: #1877F2;
   border-radius: 1rem;
   text-align: center;
-  
+
+}
+.box:hover{
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+ box-shadow: 5px 10px;
   
 }
 
