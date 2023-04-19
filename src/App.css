@@ -11,6 +11,8 @@
   background-color: #1877F2;
   border-radius: 1rem;
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 
 }
 .box:hover{
@@ -19,10 +21,15 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
   
 }
 
+
 .box button {
   color: black;
   background-color: #F5F5F5;
   margin-right: 2rem;
+}
+
+.box button:hover{
+  background-color: red;
 }
 
 .left-side {
@@ -30,9 +37,6 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
   background-color:transparent;
   padding: 20px;
   overflow-y: scroll;
- 
-  
- 
 }
 
 ul li{
